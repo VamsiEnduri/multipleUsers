@@ -1,0 +1,30 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+   <h1 id="userMessage"></h1>
+   <script>
+
+
+    window.addEventListener("DOMContentLoaded",()=>{
+          
+       let userLoggedIn=JSON.parse(localStorage.getItem("isLoggedIn"))
+         document.getElementById("userMessage").textContent="  welcome to home page and you will be redircted to " + userLoggedIn + " page"
+
+       setTimeout(()=>{
+        if(userLoggedIn){
+            window.location.href=`${userLoggedIn}.html`
+            
+        }else{
+            window.location.href="login.html"
+        }
+       },2000)
+    })
+   </script> 
+</body>
+</html> -->
